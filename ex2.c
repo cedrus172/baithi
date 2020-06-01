@@ -2,10 +2,10 @@
 #include<string.h>
 int main() {
 
-	char str[25];
+	char str[2500];
 	int i;
 	printf("Enter the string: ");
-	scanf("%s", str);
+	gets(str);
 
 	for (i = 0; i <= strlen(str); i++) {
 		if (str[i] >= 65 && str[i] <= 90)
